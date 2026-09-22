@@ -1,0 +1,84 @@
+[
+  {
+    "id": "housing",
+    "icon": "\ud83c\udfe0",
+    "title": "Housing",
+    "summary": "Hutch design, ventilation, space and bedding.",
+    "points": [
+      "Give each rabbit enough space to stretch fully, stand on its hind legs and move around comfortably.",
+      "Raise hutches off the ground to keep rabbits dry and to make cleaning underneath easier.",
+      "Make sure hutches are well ventilated but shielded from direct wind, rain and strong sun.",
+      "Use dry bedding (straw or wood shavings) and change it regularly to keep the hutch clean.",
+      "Provide a separate nest box for does that are due to kindle, lined with soft bedding.",
+      "Keep hutches away from loud noise and predators, and check wire mesh regularly for damage."
+    ]
+  },
+  {
+    "id": "feeding",
+    "icon": "\ud83c\udf3e",
+    "title": "Feeding",
+    "summary": "Feed types, fodder, water and feeding routines.",
+    "points": [
+      "Offer a mix of good-quality hay or dry fodder, fresh greens, and a balanced commercial pellet where available.",
+      "Introduce new feeds gradually \u2014 sudden changes can upset a rabbit's digestion.",
+      "Always provide clean, fresh drinking water, checked at least once a day.",
+      "Feed at consistent times each day so rabbits settle into a routine.",
+      "Avoid mouldy, wilted or pesticide-treated greens, and avoid overfeeding rich foods.",
+      "Kits (young rabbits) need access to their mother's milk and, from a few weeks old, small amounts of solid feed alongside it."
+    ]
+  },
+  {
+    "id": "breeding",
+    "icon": "\ud83d\udc30",
+    "title": "Breeding",
+    "summary": "Selecting stock, mating, pregnancy, kindling and kits.",
+    "points": [
+      "Choose healthy, mature does and bucks in good body condition for breeding.",
+      "Introduce the doe to the buck's hutch (not the other way round) and supervise the initial mating.",
+      "Pregnancy (gestation) typically lasts around a month \u2014 prepare a clean nest box a few days before it is due.",
+      "Reduce handling and disturbance in the days just before and after kindling (giving birth).",
+      "Check the nest for kits daily but keep handling brief and calm, especially in the first days.",
+      "Kits are usually weaned gradually from about 4-6 weeks, once they are eating solid food well."
+    ]
+  },
+  {
+    "id": "hygiene",
+    "icon": "\ud83e\uddfc",
+    "title": "Hygiene & Health",
+    "summary": "Cleaning, isolation, observation and when to seek help.",
+    "points": [
+      "Clean hutches and feeding equipment regularly to prevent the build-up of droppings and damp bedding.",
+      "Observe each rabbit daily for changes in appetite, droppings, coat condition or behaviour.",
+      "Isolate any rabbit that appears unwell from the rest of the group to reduce the risk of spreading illness.",
+      "Keep new arrivals separate for a short period before introducing them to your existing rabbits.",
+      "Seek advice from a qualified veterinary officer promptly if a rabbit seems seriously unwell \u2014 this guide is general information, not a diagnosis.",
+      "Keep the area around hutches free of standing water and rotting waste to discourage pests."
+    ]
+  },
+  {
+    "id": "management",
+    "icon": "\ud83d\udccb",
+    "title": "Farm Management",
+    "summary": "Identification, records, and tracking your stock.",
+    "points": [
+      "Give each rabbit a simple ID (for example ARF-001) so you can track it in your records.",
+      "Keep a basic breeding record: which doe and buck were paired, and the expected kindling date.",
+      "Record feeding costs, sales and other expenses so you know whether the farm is profitable.",
+      "Track mortality and its likely causes so you can spot recurring problems early.",
+      "Review your records periodically to decide which rabbits to keep for breeding and which to sell."
+    ]
+  },
+  {
+    "id": "marketing",
+    "icon": "\ud83d\udcb0",
+    "title": "Marketing",
+    "summary": "Finding buyers, pricing and selling farm by-products.",
+    "points": [
+      "Be clear and honest in your listings about a rabbit's age, sex, colour and health.",
+      "Prices vary by age, sex and purpose (young stock vs. proven breeding stock) \u2014 review similar local listings before setting yours.",
+      "Manure and urine can be sold separately to farmers and gardeners as a steady side income.",
+      "Word of mouth and clear WhatsApp communication go a long way for a small farm \u2014 respond to enquiries promptly.",
+      "Keep photos honest and up to date, and update a listing's status as soon as a rabbit is reserved or sold."
+    ]
+  }
+]

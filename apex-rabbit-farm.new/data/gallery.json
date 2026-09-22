@@ -1,0 +1,13 @@
+{
+  "images": [
+    { "photo": "assets/farm/farm-hero-01.webp", "alt": "Rabbits in their hutch at Apex Rabbit Farm", "caption": "" },
+    { "photo": "assets/farm/farm-life-01.webp", "alt": "A rabbit at Apex Rabbit Farm", "caption": "" },
+    { "photo": "assets/farm/gallery-feeding-trio.jpg", "alt": "Three rabbits feeding together at the farm", "caption": "" },
+    { "photo": "assets/farm/gallery-eating-pellets.jpg", "alt": "Rabbits eating pellets at Apex Rabbit Farm", "caption": "" },
+    { "photo": "assets/farm/gallery-row-of-three.jpg", "alt": "Three white rabbits side by side", "caption": "" },
+    { "photo": "assets/farm/gallery-hutch-trio.jpg", "alt": "Rabbits in their hutch", "caption": "" },
+    { "photo": "assets/farm/gallery-white-closeup.jpg", "alt": "Close-up of a white rabbit at the farm", "caption": "" },
+    { "photo": "assets/farm/gallery-hutch-mixed.png", "alt": "Group of rabbits at the hutch entrance", "caption": "" },
+    { "photo": "assets/farm/gallery-feeding-01.jpg", "alt": "Rabbits feeding at Apex Rabbit Farm", "caption": "" }
+  ]
+}

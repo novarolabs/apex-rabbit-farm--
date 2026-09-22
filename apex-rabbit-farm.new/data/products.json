@@ -1,0 +1,48 @@
+{
+  "products": [
+    {
+      "id": "PRD-MANURE-5",
+      "name": "Rabbit Manure",
+      "photo": "assets/products/rabbit-manure.jpg",
+      "category": "manure",
+      "quantity": "5 kg bag",
+      "price": 300,
+      "priceLabel": "KSh 300",
+      "status": "available",
+      "description": "Natural rabbit manure, good for enriching garden and farm soil."
+    },
+    {
+      "id": "PRD-MANURE-BULK",
+      "name": "Rabbit Manure (Bulk)",
+      "photo": "assets/products/rabbit-manure.jpg",
+      "category": "manure",
+      "quantity": "Bulk / by arrangement",
+      "price": 0,
+      "priceLabel": "Price on enquiry",
+      "status": "available",
+      "description": "Larger quantities available \u2014 contact us to discuss amount and price."
+    },
+    {
+      "id": "PRD-URINE-1",
+      "name": "Rabbit Urine",
+      "photo": "assets/products/rabbit-urine.jpg",
+      "category": "urine",
+      "quantity": "1 litre",
+      "price": 150,
+      "priceLabel": "KSh 150",
+      "status": "available",
+      "description": "Collected rabbit urine, used as a natural crop treatment."
+    },
+    {
+      "id": "PRD-URINE-5",
+      "name": "Rabbit Urine",
+      "photo": "assets/products/rabbit-urine.jpg",
+      "category": "urine",
+      "quantity": "5 litres",
+      "price": 650,
+      "priceLabel": "KSh 650",
+      "status": "available",
+      "description": "Collected rabbit urine, used as a natural crop treatment."
+    }
+  ]
+}

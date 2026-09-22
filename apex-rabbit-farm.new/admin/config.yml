@@ -1,0 +1,81 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Where photos uploaded through the admin panel are stored, and the
+# path the website should use to display them.
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+locale: "en"
+
+collections:
+  - name: "rabbits"
+    label: "Rabbits"
+    files:
+      - name: "rabbits"
+        label: "Rabbits for Sale"
+        file: "data/rabbits.json"
+        fields:
+          - { label: "Rabbits", name: "rabbits", widget: "list", summary: "{{fields.id}} — {{fields.name}} ({{fields.status}})", fields: [
+              { label: "ID (unique, e.g. ARF-007)", name: "id", widget: "string" },
+              { label: "Name", name: "name", widget: "string" },
+              { label: "Photo", name: "photo", widget: "image" },
+              { label: "Category", name: "category", widget: "select", options: ["young", "breeding"] },
+              { label: "Sex", name: "sex", widget: "select", options: ["male", "female"] },
+              { label: "Age", name: "age", widget: "string", hint: "e.g. 3 months" },
+              { label: "Colour", name: "colour", widget: "string" },
+              { label: "Breed", name: "breed", widget: "string", default: "Not yet confirmed" },
+              { label: "Price (number, for sorting)", name: "price", widget: "number", value_type: "int" },
+              { label: "Price label (shown on site)", name: "priceLabel", widget: "string", hint: "e.g. KSh 1,500 or Price on enquiry" },
+              { label: "Status", name: "status", widget: "select", options: ["available", "reserved", "sold"] },
+              { label: "Description", name: "description", widget: "text" },
+            ]}
+
+  - name: "products"
+    label: "Farm Products"
+    files:
+      - name: "products"
+        label: "Manure & Urine"
+        file: "data/products.json"
+        fields:
+          - { label: "Products", name: "products", widget: "list", summary: "{{fields.name}} — {{fields.quantity}}", fields: [
+              { label: "ID (unique)", name: "id", widget: "string" },
+              { label: "Name", name: "name", widget: "string" },
+              { label: "Photo", name: "photo", widget: "image" },
+              { label: "Category", name: "category", widget: "select", options: ["manure", "urine"] },
+              { label: "Quantity", name: "quantity", widget: "string", hint: "e.g. 5 kg bag, 1 litre" },
+              { label: "Price (number, for cart totals)", name: "price", widget: "number", value_type: "int" },
+              { label: "Price label (shown on site)", name: "priceLabel", widget: "string" },
+              { label: "Status", name: "status", widget: "select", options: ["available", "reserved", "sold"] },
+              { label: "Description", name: "description", widget: "text" },
+            ]}
+
+  - name: "updates"
+    label: "Farm Updates"
+    files:
+      - name: "updates"
+        label: "Posts"
+        file: "data/updates.json"
+        fields:
+          - { label: "Updates", name: "updates", widget: "list", summary: "{{fields.date}} — {{fields.title}}", fields: [
+              { label: "ID (unique)", name: "id", widget: "string" },
+              { label: "Title", name: "title", widget: "string" },
+              { label: "Category", name: "category", widget: "select", options: ["Rabbits", "Farm", "Sales", "Farming Tips", "New Litters", "Farm Improvements"] },
+              { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false },
+              { label: "Photo", name: "photo", widget: "image" },
+              { label: "Story / description", name: "excerpt", widget: "text" },
+            ]}
+
+  - name: "gallery"
+    label: "Gallery"
+    files:
+      - name: "gallery"
+        label: "Photos"
+        file: "data/gallery.json"
+        fields:
+          - { label: "Photos", name: "images", widget: "list", summary: "{{fields.alt}}", fields: [
+              { label: "Photo", name: "photo", widget: "image" },
+              { label: "Description (for accessibility, not shown on page)", name: "alt", widget: "string" },
+              { label: "Caption (optional)", name: "caption", widget: "string", required: false },
+            ]}

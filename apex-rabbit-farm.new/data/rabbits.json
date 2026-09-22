@@ -1,0 +1,88 @@
+{
+  "rabbits": [
+    {
+      "id": "ARF-001",
+      "name": "White Young Rabbit",
+      "photo": "assets/rabbits/ARF-001.jpg",
+      "category": "young",
+      "sex": "female",
+      "age": "3 months",
+      "colour": "White",
+      "breed": "Not yet confirmed",
+      "price": 1500,
+      "priceLabel": "KSh 1,500",
+      "status": "available",
+      "description": "Healthy young doe, active and eating well."
+    },
+    {
+      "id": "ARF-002",
+      "name": "Brown Rabbit, Black Ears",
+      "photo": "assets/rabbits/ARF-002.jpg",
+      "category": "young",
+      "sex": "male",
+      "age": "3 months",
+      "colour": "Brown with black ears",
+      "breed": "Not yet confirmed",
+      "price": 1500,
+      "priceLabel": "KSh 1,500",
+      "status": "available",
+      "description": "Alert young buck with a distinctive dark-eared marking."
+    },
+    {
+      "id": "ARF-003",
+      "name": "White Rabbit, Black Ears & Nose",
+      "photo": "assets/rabbits/ARF-003.jpg",
+      "category": "breeding",
+      "sex": "female",
+      "age": "8 months",
+      "colour": "White with black ears and nose",
+      "breed": "Not yet confirmed",
+      "price": 3000,
+      "priceLabel": "KSh 3,000",
+      "status": "available",
+      "description": "Mature doe suitable for breeding, good size and condition."
+    },
+    {
+      "id": "ARF-004",
+      "name": "Grey Rabbit",
+      "photo": "assets/rabbits/ARF-004.jpg",
+      "category": "young",
+      "sex": "female",
+      "age": "4 months",
+      "colour": "Grey",
+      "breed": "Not yet confirmed",
+      "price": 1800,
+      "priceLabel": "KSh 1,800",
+      "status": "reserved",
+      "description": "Growing well, currently reserved for a customer."
+    },
+    {
+      "id": "ARF-005",
+      "name": "Black Rabbit",
+      "photo": "assets/rabbits/ARF-005.jpg",
+      "category": "breeding",
+      "sex": "male",
+      "age": "10 months",
+      "colour": "Black",
+      "breed": "Not yet confirmed",
+      "price": 3500,
+      "priceLabel": "KSh 3,500",
+      "status": "available",
+      "description": "Strong, mature buck, good breeding condition."
+    },
+    {
+      "id": "ARF-006",
+      "name": "Brown Rabbit",
+      "photo": "assets/rabbits/ARF-006.jpg",
+      "category": "young",
+      "sex": "male",
+      "age": "2 months",
+      "colour": "Brown",
+      "breed": "Not yet confirmed",
+      "price": 1200,
+      "priceLabel": "KSh 1,200",
+      "status": "sold",
+      "description": "Already found a home \u2014 kept here for our records."
+    }
+  ]
+}

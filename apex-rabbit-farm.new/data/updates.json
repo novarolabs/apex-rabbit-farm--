@@ -1,0 +1,28 @@
+{
+  "updates": [
+    {
+      "id": "update-litter",
+      "title": "New Litter of Kits",
+      "category": "New Litters",
+      "date": "2026-09-17",
+      "photo": "assets/updates/update-litter-01.jpg",
+      "excerpt": "A new litter of kits has arrived at the farm, showing a healthy mix of colours. Message us on WhatsApp if you'd like to reserve one once they're old enough to leave their mother."
+    },
+    {
+      "id": "update-001",
+      "title": "New Young Rabbits Available",
+      "category": "Rabbits",
+      "date": "2026-09-17",
+      "photo": "assets/updates/update-001.jpg",
+      "excerpt": "We currently have a new group of young rabbits available. Contact Apex Rabbit Farm to confirm availability and pricing."
+    },
+    {
+      "id": "update-002",
+      "title": "Welcome to the Apex Rabbit Farm Website",
+      "category": "Farm",
+      "date": "2026-09-17",
+      "photo": "assets/updates/update-002.jpg",
+      "excerpt": "Apex Rabbit Farm now has a home online. Browse our rabbits, farm products and free farming guide, and reach us directly on WhatsApp."
+    }
+  ]
+}
