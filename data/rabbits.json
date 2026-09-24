@@ -1,0 +1,18 @@
+{
+  "rabbits": [
+    {
+      "sex": "female",
+      "price": 1099,
+      "name": "California white",
+      "priceLabel": "1099",
+      "colour": "White",
+      "photo": "/assets/uploads/img_20260921_194727_303.jpg",
+      "status": "available",
+      "breed": "California ",
+      "id": "ARF-010",
+      "description": "It arabbit damn it it has no description ",
+      "category": "breeding",
+      "age": "8 months "
+    }
+  ]
+}
