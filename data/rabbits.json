@@ -13,6 +13,20 @@
       "description": "It arabbit damn it it has no description ",
       "category": "breeding",
       "age": "8 months "
+    },
+    {
+      "sex": "male",
+      "price": 1000,
+      "name": "Mark",
+      "priceLabel": "1099",
+      "colour": "White ",
+      "photo": "/assets/uploads/1000020454.jpg",
+      "status": "available",
+      "breed": "Not yet confirmed",
+      "id": "ARF-001",
+      "description": "Its a rabbit agood one",
+      "category": "breeding",
+      "age": "3month"
     }
   ]
 }
